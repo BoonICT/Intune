@@ -1,0 +1,7 @@
+Description: Prevent Microsoft Classic and NEW Teams to start automatically.
+The script must run in USER context
+
+
+Install command: cmd /c start /min "" powershell.exe -ex bypass -file DisableAutostartBothTeams.ps1
+Uninstall command: cmd /c start /min "" powershell.exe -ex bypass -file DisableAutostartBothTeams.ps1
+Install behavior: User
